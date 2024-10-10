@@ -20,6 +20,7 @@ export default function Shop() {
         .catch(error=>{
             console.log("error");
         });
+         
         
     }
     ,[]);
