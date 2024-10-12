@@ -1,6 +1,13 @@
 import './Shop.css';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import App from './App';
+
+
+
+
+
+
 function Item(props) {
     return (<div key={props.id} onClick={() => props.callback(props)}>
         <img src={props.img} width={200} height={200} /><br />
